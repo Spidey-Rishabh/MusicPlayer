@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Macondo',sans-serif;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 55px;
+    background-color: rgb(66, 64, 61);
+    color: white;
+}
+nav ul li{
+    padding: 0px 10px;
+}
+
+.brand img{
+    width: 58px;
+    padding: 0px 6px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.bottom{
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: rgb(255, 245, 232);
+    background-color: rgb(66, 64, 61);
+    flex-direction: column;
+}
+.container{
+    min-height: 70vh;
+    background-color: rgb(66, 64, 61);
+    color: antiquewhite;
+    font-family: 'Verela Round',sans-serif;
+    display: flex;
+    margin: 10px auto;
+    width: 75%;
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+#ProgressBar{
+    width: 80vw;
+
+}
+.icons{
+    margin-top: 10px;
+    padding: 2px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+.SongItem{
+    display: flex;
+    height: 50px;
+    background-color: antiquewhite;
+    color: rgb(66, 64, 61);
+    margin: 2px 0;
+    
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.SongItem img{
+    width: 40px;
+    margin: 10px ;
+    border-radius: 30px;
+}
+.time{
+    margin: 15px;
+    padding: 5px;
+    
+}
+.time i{
+    cursor: pointer;
+}
